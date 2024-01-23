@@ -6,8 +6,38 @@ AudioContainerElement:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Footstep_{-6508534506208990791}
-  m_AudioClip: {fileID: 8300000, guid: f404f8d3c2a4b4f48989fb1120e78fb8, type: 3}
+  m_Name: 272254__Footstep1_{-6508534506208990791}
+  m_AudioClip: {fileID: 8300000, guid: 148c0800dcc4c4d0c9b2e8a0c9c5173c, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4789973043045142480
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 272254__Footstep3_{-4789973043045142480}
+  m_AudioClip: {fileID: 8300000, guid: ee0156675b3764fb689947ef31f194cd, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-1137997063499122260
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 272254__Footstep2_{-1137997063499122260}
+  m_AudioClip: {fileID: 8300000, guid: d3788c7c3f50d48c08e98dbc54a2859f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2057197442128669591
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 272254__Footstep4_{2057197442128669591}
+  m_AudioClip: {fileID: 8300000, guid: 76cd60c7a70eb463e9e6aebe3addfdd5, type: 3}
   m_Volume: 0
   m_Enabled: 1
 --- !u!1307931743 &6418180475301049370
@@ -21,14 +51,17 @@ AudioRandomContainer:
   m_Pitch: 323
   m_AutomaticTriggerTime: 0.5
   m_LoopCount: 1
-  m_VolumeRandomizationRange: {x: -7.655506, y: 10.411477}
+  m_VolumeRandomizationRange: {x: -10, y: 0}
   m_PitchRandomizationRange: {x: -505.26324, y: 151.57886}
   m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0.3}
   m_LoopCountRandomizationRange: {x: 0, y: 0}
   m_Elements:
   - {fileID: -6508534506208990791}
-  m_AvoidRepeatingLast: 0
-  m_PlaybackMode: 0
+  - {fileID: -1137997063499122260}
+  - {fileID: -4789973043045142480}
+  - {fileID: 2057197442128669591}
+  m_AvoidRepeatingLast: 1
+  m_PlaybackMode: 2
   m_TriggerMode: 1
   m_AutomaticTriggerMode: 0
   m_LoopMode: 2

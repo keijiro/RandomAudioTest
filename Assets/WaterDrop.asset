@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &2989061383499355827
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 273870__beskhu__water-drop-1_{2989061383499355827}
+  m_AudioClip: {fileID: 8300000, guid: 556306b97afa84892ba1d47a32863332, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterDrop
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0.5
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: -10.717702, y: 0}
+  m_PitchRandomizationRange: {x: -615.5023, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 1}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 2989061383499355827}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 0
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 1
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 1
+  m_LoopCountRandomizationEnabled: 0
