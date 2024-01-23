@@ -19,11 +19,11 @@ AudioRandomContainer:
   m_Name: Footstep
   m_Volume: 0
   m_Pitch: 323
-  m_AutomaticTriggerTime: 0.3
+  m_AutomaticTriggerTime: 0.5
   m_LoopCount: 1
   m_VolumeRandomizationRange: {x: -7.655506, y: 10.411477}
   m_PitchRandomizationRange: {x: -505.26324, y: 151.57886}
-  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0.1}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0.3}
   m_LoopCountRandomizationRange: {x: 0, y: 0}
   m_Elements:
   - {fileID: -6508534506208990791}
