@@ -2,6 +2,16 @@
   "dependencies": {
     "com.unity.render-pipelines.universal": "16.0.5",
     "com.unity.ugui": "2.0.0",
+    "jp.keijiro.klak.motion": "1.1.0",
     "com.unity.modules.audio": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
+      ]
+    }
+  ]
 }
